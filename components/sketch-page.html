@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Yangi Hayot - Дизайн интерьеров</title>
+  </head>
+  <body class="bg-[#303030] text-white">
+    <div class="overflow-x-hidden">
+      <!-- header -->
+      <header class="flex top-0 right-0 left-0 absolute py-10 px-5 text-lg">
+        <div class="container flex justify-between items-center relative">
+          <div class="z-40">
+            <a href="./services.html">
+              <img src="../img/logo.svg" alt="Логотип" />
+            </a>
+          </div>
+          <ul class="hidden lg:flex justify-between max-w-xl w-full">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="./services.html">Наши услуги</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
+            <li><a href="./contact.html">Контакты</a></li>
+            <li><a href="./about.html">О нас</a></li>
+          </ul>
+          <div
+            class="
+              hidden
+              lg:flex
+              w-full
+              max-w-xs
+              justify-end
+              lg:justify-between lg:max-w-[150px]
+              xl:max-w-xs
+            "
+          >
+            <ul
+              class="
+                lg:flex
+                w-full
+                items-center
+                max-w-none
+                lg:max-w-[80px]
+                hidden
+                justify-between
+              "
+            >
+              <li>
+                <a href="#" class="">uz</a>
+              </li>
+              <li class="lang-active">
+                <a href="#">ru</a>
+              </li>
+              <li><a href="#" class="">en</a></li>
+            </ul>
+            <a href="tel:+998xxxxxxxxx" class="hidden xl:flex">
+              <img src="../img/phone.svg" alt="Телефон" class="mr-3" />
+              +998 97 157-47-39</a
+            >
+            <a
+              href="tel:+998xxxxxxxxx"
+              class="
+                flex
+                xl:hidden
+                justify-center
+                items-center
+                border
+                rounded-full
+                w-10
+                h-10
+              "
+            >
+              <img src="../img/phone.svg" alt="Телефон" class="block" />
+            </a>
+          </div>
+          <!-- hamburger menu -->
+          <div
+            class="
+              lg:hidden
+              flex flex-col
+              items-center
+              justify-center
+              space-y-1
+              select-none
+              cursor-pointer
+              border-2
+              rounded-full
+              w-10
+              h-10
+              z-40
+            "
+            id="hamburger"
+          >
+            <span class="block w-6 h-0.5 bg-white rounded-full"></span>
+            <span class="block w-6 h-0.5 bg-white rounded-full"></span>
+            <span class="block w-6 h-0.5 bg-white rounded-full"></span>
+          </div>
+          <!-- hamburger window -->
+          <div
+            class="
+              hidden
+              inset-0
+              backdrop-blur-sm
+              w-full
+              h-full
+              z-30
+              lg:hidden
+              bg-white bg-opacity-30
+            "
+            id="blur"
+          ></div>
+          <div
+            class="hidden lg:hidden absolute top-full right-0 left-0 pt-4 z-40"
+            id="mobile"
+          >
+            <div
+              class="
+                bg-[#303030]
+                p-7
+                rounded-xl
+                space-y-6
+                shadow-2xl
+                flex
+                sm:block
+              "
+            >
+              <!-- navigation list -->
+              <ul class="w-full flex flex-col sm:flex-row justify-between">
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="./services.html">Наши услуги</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
+                <li><a href="./about.html">О нас</a></li>
+              </ul>
+              <!-- lang & number -->
+              <div
+                class="flex flex-col sm:flex-row items-center justify-between"
+              >
+                <ul
+                  class="
+                    flex flex-col
+                    sm:flex-row sm:max-w-[80px]
+                    w-full
+                    justify-between
+                    items-center
+                  "
+                >
+                  <li><a href="#">uz</a></li>
+                  <li><a href="#" class="lang-active">ru</a></li>
+                  <li><a href="#">en</a></li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="tel:+99897157479" class="hidden sm:flex">
+                      <img
+                        src="../img/phone.svg"
+                        alt="Телефон"
+                        class="mr-3"
+                      />+998 97 157-47-39</a
+                    >
+                    <a
+                      href="tel:+99897157479"
+                      class="
+                        flex
+                        sm:hidden
+                        justify-center
+                        items-center
+                        border
+                        rounded-full
+                        w-8
+                        h-8
+                        animate-pulse
+                      "
+                    >
+                      <img src="../img/phone.svg" alt="Телефон" class="block" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mt-[170px] w-full max-h-[750px] relative overflow-hidden">
+        <div class="container h-full">
+          <div
+            class="
+              h-full
+              bg-[#303030] bg-opacity-70
+              w-full
+              md:max-w-[650px]
+              p-5
+              sm:p-10
+              mx-auto
+              lg:mx-0
+            "
+          >
+            <h2
+              class="
+                intro-title
+                text-center
+                lg:text-left
+                text-3xl
+                sm:intro-title
+              "
+            >
+              Планирование
+            </h2>
+            <p class="mt-5 md:mt-10 leading-relaxed text-[12px] sm:text-sm">
+              Повседневная практика показывает, что укрепление и развитие
+              структуры позволяет выполнять важные задания по разработке новых
+              предложений. Равным образом постоянное
+              информационно-пропагандистское обеспечение нашей деятельности
+              требуют от нас анализа дальнейших направлений развития.
+              Повседневная практика показывает, что дальнейшее развитие
+              различных форм деятельности в значительной степени обуславливает
+              создание соответствующий условий активизации. Повседневная
+              практика показывает, что рамки и место обучения кадров требуют
+              определения и уточнения дальнейших направлений развития. Таким
+              образом новая модель организационной деятельности требуют от нас
+              анализа существенных финансовых и административных условий.
+            </p>
+          </div>
+        </div>
+        <img
+          src="../img/services/sketchfull.jpg"
+          alt="Дизайн интерьеров"
+          class="
+            absolute
+            object-cover
+            inset-0
+            w-full
+            h-full
+            object-center
+            z-[-1]
+          "
+        />
+      </div>
+
+      <!-- callback -->
+      <div class="container py-[30px] lg:py-20">
+        <form
+          action="#"
+          class="
+            flex flex-col
+            md:flex-row
+            justify-between
+            max-w-[930px]
+            mx-auto
+            gap-6
+            md:gap-10
+            px-4
+          "
+        >
+          <div class="w-full space-y-5 md:space-y-10">
+            <input
+              type="text"
+              name="name"
+              placeholder="Имя и фамилия"
+              class="input"
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Телефон"
+              class="input"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="input"
+            />
+          </div>
+          <div class="w-full">
+            <textarea
+              name="text"
+              placeholder="Опишите нам свой проект"
+              class="input h-40 md:h-80 resize-none mb-8"
+            ></textarea>
+            <div class="flex justify-center md:justify-end">
+              <a href="#" class="text-[22px] font-medium">
+                Построить будущее
+                <svg
+                  width="74"
+                  height="58"
+                  viewBox="0 0 74 58"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline"
+                >
+                  <circle cx="27.5" cy="30.5" r="27.5" fill="#58AD3A" />
+                  <g clip-path="url(#clip0)">
+                    <path
+                      d="M74 28.0639C74 28.5753 73.496 28.895 73.118 29.2146C72.74 29.5343 72.425 29.8539 72.047 30.1735C71.543 30.621 71.039 31.0046 70.535 31.4521C69.968 31.9635 69.401 32.411 68.8341 32.9224C68.2671 33.4338 67.6371 33.9452 67.0701 34.4566C66.5031 34.9041 65.9991 35.3516 65.4321 35.863C64.9911 36.2466 64.5501 36.6301 64.1721 36.9498C63.9201 37.1416 63.6681 37.3973 63.4161 37.589C63.3531 37.653 63.2901 37.653 63.2901 37.7169C63.1011 37.8448 62.9121 37.9087 62.7231 37.9087C62.4711 37.9087 62.2191 37.7808 62.0301 37.589C61.7152 37.2055 61.7782 36.6301 62.1562 36.3105L70.724 28.895H52.8953C52.3913 43.9178 40.2325 55.9361 25.3017 55.9361C16.4818 55.9361 8.4179 51.7808 3.12598 44.5571C2.81098 44.1735 2.93698 43.5982 3.31498 43.2785C3.69297 42.9589 4.25996 43.0868 4.57496 43.4703C9.48889 50.2466 17.0488 54.0822 25.3017 54.0822C39.2245 54.0822 50.6273 42.8311 51.0683 28.8311H32.1686C31.6646 28.8311 31.2866 28.4475 31.2866 27.9361C31.2866 27.4247 31.6646 27.0411 32.1686 27.0411H51.0683C50.6273 12.9772 39.2245 1.72603 25.3017 1.72603C17.0488 1.72603 9.48889 5.62557 4.57496 12.3379C4.25996 12.7215 3.69297 12.8493 3.31498 12.5297C2.93698 12.21 2.81098 11.6347 3.12598 11.2511C8.4809 4.15525 16.5448 0 25.3647 0C40.2955 0 52.5173 12.0822 52.9583 27.169H70.787L62.1562 19.6256C61.7782 19.3059 61.7152 18.7306 62.0301 18.347C62.3451 17.9635 62.9121 17.9635 63.2901 18.2831C63.4161 18.411 63.5421 18.4749 63.6681 18.6027C63.9831 18.8584 64.2981 19.1781 64.6131 19.4338C65.0541 19.8174 65.5581 20.2648 65.9991 20.6484C66.5661 21.1598 67.1331 21.6073 67.6371 22.1187C68.2041 22.6301 68.7711 23.1416 69.401 23.653C69.968 24.1005 70.472 24.6119 71.039 25.0594C71.48 25.4429 71.984 25.8265 72.425 26.274C72.74 26.5297 73.055 26.7854 73.37 27.105C73.685 27.3607 74 27.6164 74 28.0639Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect
+                        width="71"
+                        height="56"
+                        fill="white"
+                        transform="translate(3)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- footer -->
+      <footer class="bg-[#252525] py-5 lg:py-10">
+        <div
+          class="
+            container
+            flex flex-col
+            md:flex-row
+            items-center
+            md:items-start
+            text-center
+            md:text-left
+            leading-loose
+            text-sm
+          "
+        >
+          <ul class="md:mr-28">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="./services.html">Услуги</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
+            <li><a href="./contact.html">Контакты</a></li>
+            <li><a href="./about.html">О нас</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Правила использования сайта</a></li>
+            <li><a href="#">Карта сайта</a></li>
+            <li><a href="#">Публичная оферта</a></li>
+          </ul>
+          <ul class="md:ml-auto">
+            <li><a href="#">+998 97 157-47-39</a></li>
+            <li><a href="#">+998 97 157-47-39</a></li>
+            <li><a href="#">support@yangihayot.uz</a></li>
+            <li><a href="#">г. Ташкент, Ул. Янги Хаёт, дом 13</a></li>
+          </ul>
+        </div>
+      </footer>
+
+      <!-- dev -->
+      <div class="bg-[#000] text-sm pt-1">
+        <div class="container text-center">
+          <p>
+            Crafted by
+            <a href="https://220studio.uz" target="_blank">220studio.uz</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/index.js" defer></script>
+  </body>
+</html>

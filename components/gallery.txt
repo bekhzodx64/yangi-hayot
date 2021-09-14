@@ -1,0 +1,119 @@
+<!-- gallery -->
+      <div
+        class="
+          gallery
+          fixed
+          inset-0
+          z-40
+          backdrop-blur-md
+          flex
+          justify-center
+          items-center
+        "
+      >
+        <div
+          class="
+            w-full
+            max-w-[900px]
+            h-[600px]
+            bg-black
+            my-8
+            relative
+            container
+            p-0
+          "
+        >
+          <div
+            style="
+              --swiper-navigation-color: #fff;
+              --swiper-pagination-color: #fff;
+            "
+            class="swiper mySwiper2"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="absolute -top-10 -right-10 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
